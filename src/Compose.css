@@ -1,0 +1,54 @@
+.compose{
+    
+   
+    position:absolute;
+    bottom: 0;
+    min-width: 600px;
+   
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+
+.compose .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.body{
+    display: flex;
+
+}
+.bodyform{
+    display: flex;
+    flex-direction: column;
+    
+}
+.bodyform input, textarea{
+    width: 100%;
+    height: 40px;
+    border: 0px;
+    outline: 0;
+    border: 1px solid black;
+    box-shadow: inset 0 -1px 0 0 black;
+    padding: 0px;
+    font-size: 15px;
+}
+.bodyform textarea{
+    height: auto;
+    padding-top: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+.footer button{
+    padding: 8px ;
+    background-color: rgb(19, 144, 240);
+    font-size:large;
+    padding: 8px;
+}
